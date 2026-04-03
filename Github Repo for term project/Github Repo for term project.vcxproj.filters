@@ -15,11 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\D2007jr\CS-158-Term-Project\Main.cpp">
+    <None Include="..\README.md">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\D2007jr\CS-158-Term-Project\README.md" />
+    <ClCompile Include="..\..\CS-158-Term-Project\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
