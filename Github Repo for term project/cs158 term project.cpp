@@ -1,7 +1,5 @@
 #include<iostream> 
-
 #include <string> 
-
 using namespace std;
 
 // Function Prototypes
@@ -22,17 +20,13 @@ int index = 0, searchId;
 int main()
 
 {
-
 	int opt;
-
-
 	// do while loop to keep printing menu so long as the user does not type 6 
 	//variable "opt" is used to keep track of menu input 
 
 	do
 
 	{
-
 		displayMenu();
 		cin >> opt;
 		
@@ -47,12 +41,9 @@ int main()
 			cin >> opt;
 		}
 
-
 		switch (opt)
 
 		{
-
-
 		case 1: addStudent();
 
 			break;
@@ -73,12 +64,12 @@ int main()
 
 			break;
 
-
-
 		case 6:
 
 			break;
 
+		
+		
 		default:
 
 			cout << "Invalid option" << endl;
@@ -88,8 +79,6 @@ int main()
 
 
 		}
-
-
 
 	} while (opt != 6);
 
@@ -135,12 +124,10 @@ void addStudent()
 
 		cin >> fname[index];
 
-
-
+		
 		cout << "Enter student's last name: " << endl;
 
 		cin >> lname[index];
-
 
 
 		cout << "Enter student's ID: " << endl;
